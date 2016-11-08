@@ -1,0 +1,38 @@
+.head {
+		font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-size:350%;
+	position:relative;
+	float: right;
+}
+
+.subhead{
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-size:100%;
+	position:relative;
+	right:-85%;
+	top:10%;
+}
+.icon{
+	height:150px;
+	position:absolute;
+	margin-top:0px;
+	float:left;
+	
+}
+head,body
+{
+	overflow:hidden;
+}
+.container
+{
+		width:500px;
+		height:500px;
+		background-color:#rgb(12,30,55);
+		float:right;
+		margin: 10% 10% 30% 60%;
+		padding:20px ;
+		border-style:groove;
+		overflow:scroll;
+		 
+}
+

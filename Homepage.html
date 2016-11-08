@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>Home Page</title>
+		<style>
+			body{
+			font-family:"Trebuchet MS", Helvetica, sans-serif;
+			color:white;
+			overflow-x:hidden;
+			overflow-y:hidden;
+			margin:auto;
+			background-image:url(bg1.jpg);
+			border:solid 1.2em;
+			border-color:black;
+			border-style:outset;
+			}
+
+			#News, #Videos, #Signup, #Games{
+			position:relative;
+			opacity:0.5;
+			width:22%;
+			margin:10px; 
+			background-color:black;
+			}
+			
+			#News:hover, #Videos:hover, #Signup:hover,#Games:hover{
+			opacity:0.8;
+			transition: 0.3s
+			}
+			
+			h1{
+			font-size:250%;
+			top:-50%;
+			}
+
+			.head{
+			font-family:"Trebuchet MS", Helvetica, sans-serif;
+			font-size:350%;
+			position:relative;
+			float: right;
+			}
+
+			.subhead{
+			font-family:"Trebuchet MS", Helvetica, sans-serif;
+			font-size:100%;
+			position:relative;
+			right:-85%;
+			top:10%;
+			}
+				
+			.icon{
+			height:135px;
+			position:relative;
+			top:-20px;
+			left:0%;
+			}
+			
+		</style>
+		<script>
+			function Soundplay(){
+			var audio = document.getElementById("SoundClip");
+			audio.play();
+			}
+		</script>
+		<div class="head">The Games</div>
+		<div class="subhead">The Ultimate Game Portal</div>
+		<a href="Homepage.html"><img class="icon" src="01.jpg"></a><hr>
+	</head>
+	
+	<body>
+		<audio id="SoundClip">
+			<source src="Snapchat Tune.m4a" type="audio/mpeg">
+		</audio>
+		<a href="Welpage.html"><img id="Games" src="Games.png" style="margin-left:40px" onmouseover="Soundplay()"></a>
+		<a href="News.html"><img id="News" src="News.png" onmouseover="Soundplay()"></a>
+		<a href="Videos.html"><img id="Videos" src="Videos.png" onmouseover="Soundplay()"></a>
+		<a href="login.html"><img id="Signup" src="Signup.png" onmouseover="Soundplay()"></a>
+		<hr>
+		<footer align="center">
+		  <p>Site Made by: <strong>Nikhil Singh, Nikhil Anand & Nikhil Dixit</strong></p>
+		  <p>&copy 2016 TheGames.com LLC. All Rights Reserved.
+		  <p>Contact information: <a style="color:goldenrod; text-decoration:none" href="mailto:s.a.d.nikhil@gmail.com">s.a.d.nikhil@gmail.com</a></p>
+		</footer>
+	</body>
+</html>

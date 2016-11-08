@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>Create Account</title>
+		<style>
+			body{
+			background-image:url(09.jpg);
+			color:black;
+			font-family:"Trebuchet MS", Helvetica, sans-serif;}
+			
+			#submit{
+			color:white;
+			font-family:"Trebuchet MS", Helvetica, sans-serif;
+			font-size:17px;
+			background-color:black;
+			border:0.2em ridge;
+			border-radius:8px;
+			position:relative;
+			top:-250px;
+			left:34%;}
+			
+			#submit:hover{
+			color:grey;}
+			
+			table{
+			position:relative;
+			top:-250px;
+			left:34%;}
+			
+			th, td{
+			border:0.1px;
+			border-radius:2px;
+			padding:5px;}
+		</style>
+		<h1 align="center" style="font-size:50px;">Create an Account</h1><br/>
+	</head>
+	<body>
+		<table>
+		<form action="create.php" method="POST">
+			<tr><td>Name: </td><td><input type="text" placeholder="Your Name" name="name"></td></tr></br></br>
+			<tr><td>Username: </td><td><input type="text" placeholder="Your Username" name="username"></td></tr></br></br>
+			<tr><td>Password: </td><td><input type="password" placeholder="The Password" name="password"></td></tr></br></br>
+			<tr><td>Confirm Password: </td><td><input type="password" placeholder="The Original Password" name="confirm_password"></td></tr></br></br>
+			<tr><td>Email-id: </td><td><input type="text" placeholder="Email Address" name="email"></td></tr><br/><br/>
+			<tr><td>Games Played: </td><td><textarea style="font-family:Trebuchet MS, Helvetica, sans-serif;" rows="3" cols="22" name="Game_List" placeholder="List of Games Played"></textarea></td></tr><br/><br/>
+			<tr><td><input id="Submit" type="submit" value="Submit"></td></tr>
+		</form>
+		</table>
+	</body>
+</html>
